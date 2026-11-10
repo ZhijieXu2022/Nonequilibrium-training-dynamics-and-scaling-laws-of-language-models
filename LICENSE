@@ -1,0 +1,8 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Zhijie (Jay) Xu
+
+This work covers the manuscript (P25_revised.pdf) and the CSV data files in csv/. You may share and adapt the material for any purpose, including commercially, provided you give appropriate credit, link to the licence, and indicate whether changes were made.
+
+The losses in the CSV files were evaluated by the author on public checkpoints of the Pythia model suite (EleutherAI), GPT-2 and SmolLM2; those models are covered by their own licences. The preprint is on Research Square, doi:10.21203/rs.3.rs-10529159/v1.

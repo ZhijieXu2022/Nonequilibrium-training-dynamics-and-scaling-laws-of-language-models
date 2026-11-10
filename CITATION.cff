@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article."
+title: "Nonequilibrium training dynamics and scaling laws of language models"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Zhijie
+    affiliation: "Pacific Northwest National Laboratory"
+    orcid: "https://orcid.org/0000-0003-0459-4531"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24096774"
+    description: "Zenodo archive of the manuscript and data files (version v2)"
+  - type: doi
+    value: "10.5281/zenodo.21685712"
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: "10.21203/rs.3.rs-10529159/v1"
+    description: "Preprint on Research Square"
+license: CC-BY-4.0
+version: "v2"
+date-released: "2026-11-09"
+keywords:
+  - "large language models"
+  - "neural scaling laws"
+  - "training dynamics"
+  - "loss spectrum"
+  - "context length"
+  - "Heaps' law"
+  - "Fokker-Planck equation"
+  - "nonequilibrium statistical physics"
+  - "turbulence"
+  - "energy cascade"

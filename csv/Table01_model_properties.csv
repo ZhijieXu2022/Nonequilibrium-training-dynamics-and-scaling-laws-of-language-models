@@ -1,0 +1,13 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,,,
+# Updated,11/2026,,,,,,,,,,,
+#Name,Table 1 of the paper: key architectural properties of the language models used for the scale-dependent cross-entropy analysis,,,,,,,,,,,
+"#Ref. [1] Xu 2026, Research Square rs-10529159",https://doi.org/10.21203/rs.3.rs-10529159/v1,Nonequilibrium training dynamics and scaling laws of language models,,,,,,,,,,
+#Note,"n_heads: query attention heads, number of key/value heads in parentheses for grouped-query attention; N_tot includes embeddings; N_nb excludes embedding (and untied unembedding) matrices; all models are decoder-only transformers",,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Model,d_model,d_ff,n_heads (n_kv),d_head,n_layers,r_max (tokens),V (vocabulary),N_tot,N_nb (non-embedding),Positional encoding,Activation,Trained on
+GPT-2 Small,768,3072,12,64,12,1024,50257,124M,85M,Learned abs.,GELU,WebText
+Pythia-70M,512,2048,8,64,6,2048,50304,70M,18.9M,RoPE,GELU,The Pile
+Pythia-160M,768,3072,12,64,12,2048,50304,160M,85.1M,RoPE,GELU,The Pile
+Pythia-410M,1024,4096,16,64,24,2048,50304,410M,302.3M,RoPE,GELU,The Pile
+SmolLM2-135M,576,1536,9 (3),64,30,8192,49152,135M,106.7M,RoPE,SwiGLU,"FineWeb-Edu, DCLM, The Stack"
